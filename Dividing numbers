@@ -1,0 +1,7 @@
+number = int(input("Please type a number here: "))
+check = int(input("\n" + "Thanks! Please type another number here: "))
+
+if check % number == 0:
+    print("Your second number doesn't divide evenly into your original number :-(")
+else:
+    print("Your second number divides evenly into your original number!")
