@@ -1,0 +1,10 @@
+number = int(input("Please type a number here: "))
+
+if (number % 4) == 0:
+    print("This number is a multiple of four!")
+
+elif (number % 2) == 0:
+    print("even")
+
+else:
+    print("odd")
