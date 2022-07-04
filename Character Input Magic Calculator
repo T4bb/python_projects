@@ -1,0 +1,18 @@
+#A programme that asks the user to input their name and age
+
+name = input("Hello, what's your name?" + "\n")
+print("\n" + ("Nice to meet you, ") + name + "! I'm your magic calculator." + "\n")
+
+age = input("How old are you? " + "\n")
+hundredth_birthday = 100 - int(age)
+statement = ("You will turn 100 years old in ") + str(hundredth_birthday) + (" years. Isn't that something?" + "\n")
+print (statement)
+
+#Below the programme repeats the statement on new lines according to the user's input
+
+repeat = (input("For my second trick, please give me a new number between 1 and 10: "))
+
+print("\n" + repeat + " is a great number. Now watch this:" +"\n")
+print(str(statement + "\n") * int(repeat))
+
+print(("I printed that ") + str(repeat) + (" times! Wasn't I fast?"))
