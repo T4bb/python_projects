@@ -1,0 +1,9 @@
+birthday_dictionary = {
+    "Albert Einstein": "14 March 1879",
+    "Benjamin Franklin": "17 January 1706",
+    "Ada Lovelace" : "10 December 1815"
+}
+
+print("Welcome to the birthday dictionary! We know the birthdays of: \n Albert Einstein \n Benjamin Franklin \n Ada Lovelace. \n Whose birthday do you want to look up? ")
+name = input()
+print(birthday_dictionary.get(name,"We don't recognise that entry. Try again."))
